@@ -12,3 +12,10 @@ header{
 section.navigation{
     
 }
+
+ul,li{
+    display: flex;
+    justify-content: flex-start;
+    padding: .25rem;
+    color: white;
+}
