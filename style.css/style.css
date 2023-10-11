@@ -18,9 +18,13 @@ div.row{
 article.product{
     background-color: #ededed;
     width: calc(100% / 3);
+    position: relative;
 }
 article.product img{
     width: 100%;
+}
+article.product p{
+    
 }
 
 ul,li{
