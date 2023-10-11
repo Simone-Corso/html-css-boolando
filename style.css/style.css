@@ -14,7 +14,14 @@ div.row{
     align-items: center;
     align-content: space-around;
 }
-div.
+
+article.product{
+    background-color: #ededed;
+    width: calc(100% / 3);
+}
+article.product img{
+    width: 100%;
+}
 
 ul,li{
     display: flex;
