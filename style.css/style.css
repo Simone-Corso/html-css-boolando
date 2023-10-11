@@ -40,11 +40,11 @@ article.product span.sostenibilità{
     background-color: #008000;
 }
 article.product span.hearts{
-    font-size: 150%;
+    font-size: 300%;
     position: absolute;
     top: 0;
     right: 0;
-    margin-bottom: 2.5rem;
+    margin-top: 1rem;
     background-color: white;
 }
 ul,li{
