@@ -3,22 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 header{
     background-color: #FF6900;
     padding: 1.5rem 0;
 }
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
 div.row{
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     align-content: space-around;
 }
 
 article.product{
     background-color: #ededed;
-    width: calc(100% / 3);
+    width: calc( (100% / 3)- .5rem);
     position: relative;
+    margin: 2rem .25rem;
+    position: relative;
+    height: 500px;
 }
 article.product img{
     width: 100%;
@@ -47,6 +53,8 @@ article.product span.hearts{
     margin-top: 1rem;
     background-color: white;
 }
+
+
 ul,li{
     display: flex;
     justify-content: left;
