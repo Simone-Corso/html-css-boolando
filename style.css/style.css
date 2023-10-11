@@ -8,6 +8,13 @@ header{
     background-color: #FF6900;
     padding: 1.5rem 0;
 }
+div.row{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    align-content: space-around;
+}
+div.
 
 ul,li{
     display: flex;
